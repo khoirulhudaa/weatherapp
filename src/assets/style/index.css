@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap {
+    position: relative;
+    top: 55px;
+    width: 30%;
+    margin: auto;
+    height: 80vh;
+    overflow: hidden;
+    box-shadow: 1px 5px 7px lightgrey;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../warm.jpg);
+}
+
+.nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.nav input {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    color: rgb(29, 29, 29);
+    padding: 7px 10px;
+    font-size: 22px;
+}
+
+.nav input:focus {
+    border: none;
+    outline: none;
+}
+
+.body {
+    position: relative;
+    height: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.body .cityName {
+    font-size: 40px;
+    color: white;
+}
+
+.body .dateName {
+    font-size: 20px;
+    color: white;
+}
+
+.body .celcius {
+    color: rgb(59, 59, 59);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 60px 40px 20px 40px;
+}
+
+.celcius span {
+    background-color: #fff;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.semi {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+@media(max-width: 750px) {
+    .wrap {
+        position: relative;
+        top: 55px;
+        width: 90%;
+        margin: auto;
+        height: 80vh;
+        overflow: hidden;
+        box-shadow: 1px 5px 7px lightgrey;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../warm.jpg);
+    }
+}
